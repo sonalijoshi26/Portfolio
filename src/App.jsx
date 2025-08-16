@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Navbar } from './components/sections/Navbar';
 import { MobileMenu } from './components/sections/MobileMenu';
 import { Home } from './components/sections/Home';
+import { About } from './components/sections/About';
 function Portfolio(){
   const [isLoaded,setIsLoaded]=useState(false);
   const[menuOpen,setMenuOpen]=useState(false);
@@ -14,6 +15,7 @@ function Portfolio(){
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home/>
+      <About/>
     </div>
     </>
   )
