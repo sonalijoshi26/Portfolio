@@ -7,8 +7,8 @@ export const Projects=()=>{
                      <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-pink-600 bg-clip-text text-transparent text-center "> 
                         Projects
                      </h2>
-                     <div className="grid grid-col-1 md:grid-cols-2 gap-6">
-                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-50/30  hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+                     <div className="grid grid-col-1 md:grid-cols-2 gap-6 ">
+                             <div className="pl-4 ml-13 pt-3 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-50/30  hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
                                 <h3 className="text-xl font-bold mb-2">Netflix fontend clone</h3>
                                 <p className="text-gray-400 mb-4">Created netflix frontend clone with the help of HTML and CSS</p>
                                 <div className="pt-2 ">{["HTML","CSS"].map((tech,key)=>(
@@ -21,7 +21,7 @@ export const Projects=()=>{
                                     <a href="https://tangerine-boba-9e953a.netlify.app/" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project→ </a>
                                     </div>
                              </div>
-                              <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-50/30  hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+                              <div className="pl-6 ml-13 pt-3 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-50/30  hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
                                 <h3 className="text-xl font-bold mb-2">Stone Paper Scissor Game</h3>
                                 <p className="text-gray-400 mb-4">Stone Paper Scissor game where user can play with the computer</p>
                                 <div className="pt-2 ">{["HTML","CSS","JAVASCRIPT"].map((tech,key)=>(
@@ -34,17 +34,30 @@ export const Projects=()=>{
                                     <a href="https://kaleidoscopic-kleicha-b04331.netlify.app/" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project→ </a>
                                     </div>
                              </div>
-                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-50/30  hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-                                <h3 className="text-xl font-bold mb-2">To-Do List</h3>
-                                <p className="text-gray-400 mb-4">You can create your Todo-List and delete them after it's done</p>
-                                <div className="pt-2 ">{["HTML","CSS","JAVASCRIPT","REACT","Tailwind"].map((tech,key)=>(
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-4 rounded-full  hover:bg-blue-500/20
+                             <div className="pl-6 ml-13 pt-3 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-50/30  hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+                                <h3 className="text-xl  font-bold mb-2">To-Do List</h3>
+                                <p className="text-gray-400  mb-4">You can create your Todo-List and delete them after it's done</p>
+                                <div className="pt-2  ">{["HTML","REACT","Tailwind"].map((tech,key)=>(
+                                    <span key={key} className="p-2 bg-blue-500/10 text-blue-500 py-1 px-4 rounded-full  hover:bg-blue-500/20
                                         hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition ">
                                             {tech}
                                         </span>
                                ))}</div>
                                 <div className="flex justify-between items-center">
                                     <a href="https://to-do-list-eta-lyart-62.vercel.app" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project→ </a>
+                                    </div>
+                             </div>
+                             <div className="pl-6 ml-13 pt-3 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-50/30  hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+                                <h3 className="text-xl  font-bold mb-2">Personal Portfolio Website</h3>
+                                <p className="text-gray-400  mb-4">added about me,qualifications,projects and contact me</p>
+                                <div className="pt-2  ">{["HTML","REACT","Tailwind"].map((tech,key)=>(
+                                    <span key={key} className="p-2 bg-blue-500/10 text-blue-500 py-1 px-4 rounded-full  hover:bg-blue-500/20
+                                        hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition ">
+                                            {tech}
+                                        </span>
+                               ))}</div>
+                                <div className="flex justify-between items-center">
+                                    <a href="https://portfolio-eta-rosy-86.vercel.app/" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project→ </a>
                                     </div>
                              </div>
                      </div>

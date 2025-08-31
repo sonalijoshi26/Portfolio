@@ -10,7 +10,7 @@ export const About=()=>{
         </h2>
         <div className=" rounded-xl p-7 border-white/10 border hover:-translate-y-0.5 transition-all">
             <p className="text-gray-300 mb-6 text-center">
-                   Passionate developer with expereyise in building user friendly and responsive websites.
+                   Passionate developer with expertise in building user friendly and responsive websites.
             </p>
                 <div className="rounded-xl p-6 hover:-translate-y-0.5 transition-all">
                     <h3 className="text-center font-bold text-xl mb-3">Front-end</h3>
