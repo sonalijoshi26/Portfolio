@@ -6,6 +6,7 @@ import { MobileMenu } from './components/sections/MobileMenu';
 import { Home } from './components/sections/Home';
 import { About } from './components/sections/About';
 import { Projects } from './components/sections/Project';
+import { Contact } from './components/sections/Contact';
 function Portfolio(){
   const [isLoaded,setIsLoaded]=useState(false);
   const[menuOpen,setMenuOpen]=useState(false);
@@ -18,6 +19,7 @@ function Portfolio(){
       <Home/>
       <About/>
       <Projects/>
+      <Contact/>
     </div>
     </>
   )
